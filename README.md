@@ -48,4 +48,10 @@ grep -R 'axios' * --exclude-dir node_modules --exclude *.json
 
 JSPlaygrounds ships with lodash by default. If you want to import more libraries,
 you can clone your forked JSPlaygrounds repo in GitHub and modify.
-```
+
+### React notes
+Component state should not be changed in render methods. Render should be idempotent and pure.
+You can initialize this.state via assignment operator in your constructor with an object. 
+Any other method (lifecycle or custom) except for render use this.setStre({key: value}).
+You only need a constructor if your component reqires its own state OR you need to use this.method = this.method.bind(this). 
+
