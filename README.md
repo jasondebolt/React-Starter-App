@@ -19,7 +19,7 @@ ACTION CREATOR > REDUCER > COMPONENT
 ### Other React and Redux libraries
 There's lots of great source code to read in the projects below...
 
-[react-router](https://reacttraining.com/react-router/web/guides/philosophy) has many routers, but I'll mostly be using [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) . I don't think I need to use [react-router-redux](https://github.com/reactjs/react-router-redux) at all.
+[react-router](https://reacttraining.com/react-router/web/guides/philosophy) (github link [here](https://github.com/ReactTraining/react-router)) has many routers, but I'll mostly be using [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) . I don't think I need to use [react-router-redux](https://github.com/reactjs/react-router-redux) at all.
 
 [redux-form](https://github.com/erikras/redux-form) works with React Redux to enable an html form in React to use Redux to store all of its state.
 
