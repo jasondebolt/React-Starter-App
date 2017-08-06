@@ -19,9 +19,11 @@ ACTION CREATOR > REDUCER > COMPONENT
 ### Other React and Redux libraries
 There's lots of great source code to read in the projects below...
 
+[react-router](https://reacttraining.com/react-router/web/guides/philosophy) has many routers, but I'll mostly be using [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) . I don't think I need to use [react-router-redux](https://github.com/reactjs/react-router-redux) at all.
+
 [redux-form](https://github.com/erikras/redux-form) works with React Redux to enable an html form in React to use Redux to store all of its state.
 
-[react-router-redux](https://github.com/reactjs/react-router-redux) works with React Redux to enable an URL's in a React app to use Redux to store all of its state.
+
 
 [redux-thunk](https://github.com/gaearon/redux-thunk) is middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
 
