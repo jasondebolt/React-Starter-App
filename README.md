@@ -54,4 +54,6 @@ Component state should not be changed in render methods. Render should be idempo
 You can initialize this.state via assignment operator in your constructor with an object. 
 Any other method (lifecycle or custom) except for render use this.setStre({key: value}).
 You only need a constructor if your component reqires its own state OR you need to use this.method = this.method.bind(this). 
-
+Within a component, you are free to store additional fields directly on 'this' as long at the field
+has nothing to do with anything visual. For example, a timer instance can be stored as this.timer within
+componentDidMount. Teardown the timer in componentWillUnmount. If you dont use something in render(), it shouldn't be in state.
