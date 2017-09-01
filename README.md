@@ -9,6 +9,12 @@ $ npm start
 $ npm install --save axios redux-promise
 ```
 
+### Renaming stuff
+Use vim
+```
+%s/POST/LINK/gec | %s/Post/Link/gec | %s/post/link/gec
+```
+
 ### React Redux Workflow
 First, create the action creator.
 Secondly, create the reducer to watch for the action.
